@@ -2,17 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 
 
-import {Home} from "./pages/home";
 import {Footer} from "./components/footer";
-import { About } from './pages/about';
 import { Header } from './components/header';
+import { BrowserRouter } from 'react-router';
+import { AppRouter } from './routes/router';
+
 
 function App() {
   return (
       <>
+      <BrowserRouter>
       <Header/>
-      <About/>
+      <AppRouter/>
       <Footer/>
+      </BrowserRouter>
       </>
   );
 }
