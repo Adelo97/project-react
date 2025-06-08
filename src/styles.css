@@ -1,0 +1,62 @@
+body {
+  background-image: url('../public/music-sheet.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   font-weight: bold;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #10107e;
+}
+
+header {
+  color: #ab4d4d;
+  padding: 2rem 0 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  border-bottom: 2px solid #0d6efd;
+}
+
+footer {
+  box-shadow: 0 -2px 8px rgba(205, 201, 201, 0.07);
+  border-top: 2px solid #0d6efd;
+  background: rgba(225, 226, 227, 0.95);
+  color: #7a353569;
+  padding: 1.5rem 0 1rem 0;
+  font-size: 1rem;
+}
+
+a, .nav-link {
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .nav-link:hover {
+  color: #e3eae4;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.main-content {
+  flex: 1 0 auto;
+  padding: 2rem 0;
+  background: rgba(132, 27, 27, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+  margin-bottom: 2rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #0a226f;
+}
+::-webkit-scrollbar-thumb {
+  background: #06328978;
+  border-radius: 4px;
+}
