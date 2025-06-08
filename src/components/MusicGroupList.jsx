@@ -53,7 +53,7 @@ function MusicGroupList() {
       <InputGroup className="mb-3">
         <Form.Control
           type="text"
-          placeholder="Search music groups..."
+          placeholder="Search by name..."
           value={searchTerm}
           onChange={handleSearchChange}
         />
