@@ -58,7 +58,7 @@ function MusicGroupDetail() {
 
   return (
     <div>
-      <h3> MusicGroups (exampel-list)</h3>
+      <h3> MusicGroups (details example)</h3>
       <Row>
         {groups.map((group, idx) => (
           <Col md={6} key={idx} className="mb-3">
