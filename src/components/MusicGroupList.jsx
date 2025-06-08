@@ -11,10 +11,10 @@ function MusicGroupList() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const [currentPage, setCurrentPage] = useState(0); // <-- Lägg till denna rad
+  const [currentPage, setCurrentPage] = useState(0);
   const pageSize = 10;
 
-  // Fetch music groups when component mounts or searchTerm/currentPage changes
+
   useEffect(() => {
     async function loadGroups() {
       setLoading(true);

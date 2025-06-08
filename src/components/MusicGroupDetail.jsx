@@ -18,7 +18,7 @@ function MusicGroupDetail() {
       try {
         while (hasMore) {
           const response = await fetch(
-            `https://seido-webservice-307d89e1f16a.azurewebsites.net/api/Album/Read?seeded=true&flat=true&pageNr=${pageNr}&pageSize=${pageSize}`
+            `https://seido-webservice-307d89e1f16a.azurewebsites.net/api/Album/Read?seeded=true&flat=true&pageNr=0&pageSize=1000`
           );
           if (!response.ok) throw new Error('Kunde inte hämta musikgrupper');
           const data = await response.json();
